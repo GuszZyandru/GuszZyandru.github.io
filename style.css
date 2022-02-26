@@ -1,0 +1,177 @@
+html,body{
+    background-color: #000;
+}
+
+.navbar {
+    background-color: #ADADADBF;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    margin-left: 5%;
+    padding-top: 20px;
+}
+
+.main-content {
+    padding-top: 170px;
+    left: -25px;
+    margin-left:-8px   ;   
+    margin-right: -8px;
+    height: 850px;
+}
+
+.badan {
+    font-weight: bold;
+    padding-left: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kiri h1{
+    font-family: Righteous;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 119px;
+    margin: 30px;
+    padding-right: 40px;
+    font-size: 100px;
+    font-weight: bolder;
+    -webkit-text-stroke: 0.02em #000;
+    color: white;
+}
+.kiri h5{
+    font-family: 'sans-serif';
+    text-align: right;
+    padding-right: 90px;
+    color: white;
+}
+.kanan{
+    border: 1px solid #ADADADBF;
+    background-color: #ADADADBF;
+
+    width: 500px;
+    right: 0;
+    padding-left: 500px;
+    padding-right: 200px;
+    text-align: center;
+    border-radius: 50px 0px 0px 50px;
+    height: 650px;
+    position: relative;
+}
+
+.kanan .box {
+    padding: 15px 0 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gambar-kanan{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    right: 400px;
+    top: 70px;
+    border-radius: 50px 0px 0px 50px;
+}
+
+.tulisan
+{
+    font-family: 'sans-serif';
+    
+    font-weight: bold;
+    color: white;
+    padding-top: 80px;
+}
+.tulisan h2{
+    text-align: left;
+}
+.tulisan h1{
+    text-align: left;
+    color: black;
+}
+.tulisan h3{
+    text-align: left;
+    width: 200px;
+    font-weight: lighter;
+}
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    background-color: #514B4B;
+    color: white;
+    text-align: center;
+
+}
+.icon-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 80px 30px;
+    
+}
+.menu {
+    margin-right: 5%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.menu li {
+    padding: 15px;
+    cursor: pointer;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+
+h1 {
+    margin: 0;
+}
+
+li a:hover {
+    background-color: rgba(52, 240, 14, 0.836);
+
+}
+.btn{
+    margin-left: 20px;
+}
+
+.btn-primary {
+    transition: 300ms;
+    background-color:  #59C9A5;
+    
+    border: 1ps bold rgb(0, 0, 0);
+    padding: 10px 25px;
+    border-radius: 8px;
+    width: 90%;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    transition: 300ms;
+    background-color: green;
+    color: white;
+}
